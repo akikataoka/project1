@@ -1,9 +1,16 @@
 # Buen sitio para GIT, con comandos basicos y buen diagrama que explica workspace, staging, local, remote
 http://nbviewer.ipython.org/github/LUMC/programming-course/blob/master/git.ipynb
 
+# Glosario: https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html
+
 # Actualizar current branch desde el repositorio remoto master
 git pull origin master
 
+#########################
+# git log               #
+#########################
+git log
+git log --summary
 
 #########################
 # git push              #
@@ -24,6 +31,8 @@ git push origin master
 # Modificador de color: -- color-words
 # Modificador ???: --word-diff
 # Modificador para que muestre solo los archivos que cambiaron: --stat
+
+
 
 # Diferencia entre workspace y staging (Si no recuerdo que hice)
 git diff
