@@ -8,6 +8,10 @@ git diff master origin/master
 git pull origin master
 
 # Enviar cambios commiteados a repositorio remoto, en origin maste, en origin master
+#git push origin master
+#This only pushes your master branch to origin
+#git push origin
+#Pushes all your branches to origin
 git push origin master
 
 # Muestra los cambios entre el repositorio master local (no el working copy) y el remoto en origin/master, tiene que estar commiteado en el local para que se vea la diferencia, si la modificación está solo en el working copy y no en el master local entonces no se va a ver la diferencia con el remoto.
