@@ -1,9 +1,6 @@
 # Buen sitio para GIT, con comandos basicos y buen diagrama que explica workspace, staging, local, remote
 http://nbviewer.ipython.org/github/LUMC/programming-course/blob/master/git.ipynb
 
-# Ver diferencia entre master local y master remoto
-git diff master origin/master
-
 # Actualizar current branch desde el repositorio remoto master
 git pull origin master
 
@@ -19,6 +16,26 @@ git pull origin master
 #git push origin
 #Pushes all your branches to origin
 git push origin master
+
+
+##########################
+# git diff               #
+##########################
+# Modificador de color: -- color-words
+# Modificador ???: --word-diff
+# Modificador para que muestre solo los archivos que cambiaron: --stat
+
+# Diferencia entre workspace y staging (Si no recuerdo que hice)
+git diff
+
+# Diferencia entre staging y local que es la copia del remote (Si ya hice git add de los cambios)
+git diff --staged
+
+# Differencia entre workspace y local (HEAD = commit mas reciente), se saltea staging
+git diff HEAD
+
+# Ver diferencia entre master local y master remoto
+git diff master origin/master
 
 # Muestra los cambios entre el repositorio master local (no el working copy) y el remoto en origin/master, tiene que estar commiteado en el local para que se vea la diferencia, si la modificación está solo en el working copy y no en el master local entonces no se va a ver la diferencia con el remoto.
 git diff master origin/master
