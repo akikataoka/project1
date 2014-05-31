@@ -1,2 +1,8 @@
 # Ver diferencia entre master local y master remoto
 git diff master origin/master
+
+# Actualizar current branch desde el repositorio remoto master
+git pull origin master
+
+# Enviar cambios commiteados a repositorio remoto, en origin maste, en origin master
+git push origin master
