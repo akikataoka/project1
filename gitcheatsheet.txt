@@ -1,0 +1,2 @@
+# Ver diferencia entre master local y master remoto
+git diff master origin/master
