@@ -78,3 +78,11 @@ Then you can push your new changes in master back to origin:
 
 git push origin master
 
+
+################
+# git checkout #
+################
+# Checkout de un archivo en particular en el workspace a partir del local
+git checkout origin/master doc/curls/itau/dummy_credit.sh
+
+
