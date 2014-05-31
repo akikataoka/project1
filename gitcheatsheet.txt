@@ -7,7 +7,13 @@ git diff master origin/master
 # Actualizar current branch desde el repositorio remoto master
 git pull origin master
 
-# Enviar cambios commiteados a repositorio remoto, en origin maste, en origin master
+
+#########################
+# git push              #
+#########################
+#The default action of git push and git push origin has changed since git version 1.7.11:
+#Before 1.7.11, git push by default pushes all branches that also exist remotely with the same name.
+#Since 1.7.11, git push by default pushes the current branch to a remote branch with the same name.
 #git push origin master
 #This only pushes your master branch to origin
 #git push origin
