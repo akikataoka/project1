@@ -85,4 +85,9 @@ git push origin master
 # Checkout de un archivo en particular en el workspace a partir del local
 git checkout origin/master doc/curls/itau/dummy_credit.sh
 
+################
+# git reset    #
+################
+#Reset is the opposite of add. It removes a staged file from the staging area.
+git reset wrong.txt
 
